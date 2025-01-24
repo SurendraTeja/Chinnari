@@ -1,2 +1,2 @@
-# sreegodavarthi.github.io
-My Portfolio: https://bhukya-sandhya.github.io/
+# surendrateja.github.io
+My Portfolio: 
