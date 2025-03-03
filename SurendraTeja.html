@@ -264,7 +264,7 @@
                         <div class="card-content">
                             <!-- ABOUT PARAGRAPH -->
                             <p>
-                                Hello! I'm Surendra Teja,Senior Software Engineer with 3.9+ Years of experience in Software Development Life Cycle involving Accumulating
+                                Hello! I'm Surendra Teja,Senior Software Engineer with <span id="totalExp" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 16px;"></span>+ Years of experience in Software Development Life Cycle involving Accumulating
                                 Requirements, Analyzing, Designing, Development/Implementation, Testing and Production
                                 Support with intuitive problem-solving skills. Passionate about implementing and launching new
                                 projects.
@@ -563,14 +563,20 @@
                                         <div class="skillbar-bar"></div>
                                         <div class="skill-bar-percent">90%</div>
                                     </div>
+                                    <!-- SIXSTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>Git</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
                                 </div>
 
 
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <!-- SECOND SKILL SECTION -->
-                                    <!-- <div class="skills-title">
-        <h6 class="text-center">Professional</h6>
-    </div> -->
+                                    
                                     <!-- FIRST SKILL BAR -->
                                     <div class="skillbar" data-percent="80%">
                                         <div class="skillbar-title">
@@ -611,14 +617,20 @@
                                         <div class="skillbar-bar"></div>
                                         <div class="skill-bar-percent">80%</div>
                                     </div>
+                                    <!-- SIXSTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>Elastic Search DB</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
                                 </div>
 
 
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <!-- THIRD SKILL SECTION -->
-                                    <!-- <div class="skills-title">
-        <h6 class="text-center">Software</h6>
-    </div> -->
+                                    
                                     <!-- FIRST SKILL BAR -->
                                     <div class="skillbar" data-percent="80%">
                                         <div class="skillbar-title">
@@ -659,6 +671,14 @@
                                         <div class="skillbar-bar"></div>
                                         <div class="skill-bar-percent">80%</div>
                                     </div>
+                                    <!-- SIXSTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>Jenkins</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -698,7 +718,7 @@
                                     <small>Sri Venkateswara Degree & PG Collage, Proddatur - Andhra Pradesh.</small>
                                 </h6>
                                 <h6>
-                                    <small>Mar 2022</small>
+                                    <small>May 2018</small>
                                 </h6>
                             </div>
                             <!-- TIMELINE PARAGRAPH -->
@@ -708,14 +728,63 @@
                             <p>
                                 Coursework includes Computer Science subjects.
                             </p>
-                            <!-- BUTTON TRIGGER MODAL -->
-                            <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a> -->
                         </div>
                     </div>
                 </div>    
                     
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Board of Intermediate Education</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Sri Chaitanya Boys Jr Collage, Vijayawada - Andhra Pradesh.</small>
+                                </h6>
+                                <h6>
+                                    <small>May 2015</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                I completed my Intermediate in Mpc from Sri Chaitanya Boys Jr Collage, Vijayawada - Andhra Pradesh.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Board of Secondary Education</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Gautam High School, Proddatur - Andhra Pradesh.</small>
+                                </h6>
+                                <h6>
+                                    <small>May 2013</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                I completed my SSC from Gautam High School, Proddatur - Andhra Pradesh.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1160,7 +1229,15 @@
     <script src="javascript/vendors/swiper.jquery.min.js"></script>
     <script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
     <script src="javascript/custom.js?3"></script>
-
+    <script>
+          var startDate = new Date("07 Jun 2021");
+            var endDate = new Date(); 
+            var totalMonths = (endDate.getFullYear() - startDate.getFullYear()) * 12 + (endDate.getMonth() - startDate.getMonth());
+            var years = Math.floor(totalMonths / 12);
+            var months = totalMonths % 12;
+            var totalExp = years + "." + months;
+            $("#totalExp").text(totalExp);
+    </script>
 </body>
 
 </html>
